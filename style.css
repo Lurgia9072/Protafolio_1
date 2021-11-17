@@ -1,0 +1,746 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    color: rgba(29, 29, 29, 0.94);
+}
+
+
+
+.nav .logo {
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.nav nav {
+    width: 100%;
+    height: 20px;
+    left: 0px;
+    top: 90px;
+    text-align: center;
+    align-items: center;
+    margin: 27px 0;
+    background-color: #FFFFFF;
+}
+
+.nav nav a {
+    color: rgba(29, 29, 29, 0.94);
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 620px;
+    background: #FAF8F8;
+}
+
+.banner .texto h1 {
+    width: 813px;
+    height: 164px;
+    left: 128px;
+    margin-left: 128px;
+    padding-top: 96px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-transform: lowercase;
+    color: rgba(32, 30, 30, 0.94);
+}
+
+.banner .texto h2 {
+    width: 285px;
+    height: 47px;
+    left: 154px;
+    top: 442px;
+    padding-top: 129px;
+    margin-left: 154px;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.banner a {
+    position: absolute;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #18A800;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 160px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.rec {
+    width: 651.33px;
+    height: 368.98px;
+    top: 250px;
+    right: 0;
+    position: absolute;
+}
+
+.imagen {
+    width: 651.33px;
+    height: 368.98px;
+    top: 60px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.servicios {
+    width: 100%;
+    height: 810px;
+    background: url(img/servicios.svg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    color: rgba(68, 68, 68, 0.94);
+}
+
+.servicios .cont {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.servicios .cont .ser1 {
+    width: 398px;
+    height: 650px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+    line-height: 25px;
+}
+
+.servicios .cont .ser1 p {
+    text-align: justify;
+    /*   margin: auto; */
+    font-size: 18PX;
+    color: rgba(68, 68, 68, 0.94);
+    font-weight: 100;
+}
+
+.servicios .cont .ser1 a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #c5fabb;
+    color: #2daf21;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.nosotros {
+    width: 100%;
+    height: 800px;
+    background: url(img/nosotros.svg);
+    background-size: cover;
+}
+
+.nosotros .textoN {
+    position: relative;
+    width: 750px;
+    height: 525px;
+    top: 52px;
+    z-index: 1;
+    margin-left: 360px;
+    /*    background: #FFFCFC; */
+    border-radius: 20px;
+    padding: 90px;
+    line-height: 25px;
+}
+
+.nosotros .textoN h2,
+.contactos .login p {
+    text-align: center;
+    color: rgba(68, 68, 68, 0.94);
+    padding: 30px;
+}
+
+.nosotros .textoN p {
+    font-size: 18PX;
+    color: rgba(68, 68, 68, 0.94);
+    font-weight: 100;
+    line-height: 33px;
+}
+
+
+
+
+
+.contactos{
+    color: rgba(68, 68, 68, 0.94);
+    width: 100%;
+    position: relative;
+    height: 700px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.contactos .form_1{
+    width: 50%;
+    height: 100%;
+    background-color: #eeeeee9d;
+}
+.contactos .form_1 form{
+    
+    position: absolute;
+    width: 491px;
+    height: 80px;
+    left: 150px;
+    top: 113px;
+
+}
+.contactos .form_1 form input, .contactos .form_1 form textarea, .contactos .form_1 form button{
+    margin: 10px 0px;
+    padding: 20px;
+    width: 413px;
+    border-radius: 20px;
+    border: none;
+}
+.contactos .form_icono{
+    margin: auto;
+}
+.contactos .form_1 form button{
+    background-color: #18A800;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+.container__3{
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container__3 ul{
+    padding: 0;
+    display: flex;
+    width:300% ;
+
+    animation: cambio 10s infinite;
+}
+.container__3 li{
+    list-style: none;
+    width: 100%;
+}
+
+.container__3 .imd{
+    width: 100%;
+   text-align: justify;
+   align-items: center;
+   background-color: #eeeeee9d;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+
+}
+
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000000f6;
+    color: #a5a5a5;
+    align-items: center;
+    text-align: center;
+}
+
+footer .icono {
+    padding: 30px;
+}
+
+footer .icono i {
+    padding: 10px;
+    color: #a9f3be;
+}
+
+@media (max-width: 1359px) {
+    .banner .texto h1 {
+        margin-left: 128px;
+        padding-top: 96px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 84px;
+        text-transform: lowercase;
+    }
+    .rec {
+        width: 500px;
+        height: 368.98px;
+        top: 250px;
+        right: 0;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .imagen {
+        width: 500px;
+        height: 368.98px;
+        top: 60px;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    .nosotros .textoN {
+        position: relative;
+        width: 680px;
+        height: 525px;
+        top: 52px;
+        z-index: 1;
+        margin-left: 340px;
+        background: none;
+        border-radius: 20px;
+        padding: 90px;
+        line-height: 25px;
+    }
+   .contactos{
+       width: 100%;
+       box-sizing: border-box;
+       margin-top: 50px;
+   }
+
+   .contactos .form_1 form{   
+ 
+    width: 50%;
+    height: 80px;
+    left: 100px;
+    top: 113px;
+
+}
+.contactos .form_icono img{
+    width: 90%;
+  
+   
+}
+}
+
+@media (max-width: 1099px) {
+    .banner .texto h1 {
+        margin-left: 40px;
+        font-size: 60px;
+    }
+    .banner .texto h2 {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+    .banner a {
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    .rec {
+        width: 500px;
+        height: 250px;
+        top: 370px;
+        right: 0;
+    }
+    .imagen img {
+        width: 400px;
+        height: 350px;
+        top: 190px;
+        right: 0;
+        position: absolute;
+    }
+    .nosotros {
+        width: 900px;
+        height: 600px;
+        margin-top: -100px;
+        background: none;
+        box-sizing: border-box;
+    }
+    .nosotros .textoN {
+        box-sizing: border-box;
+        z-index: 1;
+        width: 450px;
+        margin: auto;
+        
+        border-radius: 20px;
+        padding: 30px;
+        line-height: 25px;
+    }
+    .contactos {
+        width: 100%;
+        height: 700px;
+        background: none;
+        box-sizing: content-box;
+      
+    }
+    .from_1 {
+        height: 554px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .contactos{
+        width: 100%;
+        box-sizing: border-box;
+    }
+ 
+    .contactos .form_1 form{   
+  
+     width: 70%;
+     height: 80px;
+     left: 80px;
+     top: 113px;
+ 
+ }
+ .contactos .form_icono img{
+   
+   margin-left: 50px;
+    width: 400px;
+    height: 500px;
+ }
+ .contactos .form_1 form input, .contactos .form_1 form textarea, .contactos .form_1 form button{
+    margin: 10px 0px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+}
+
+}
+
+@media (max-width: 770px) {
+    .banner {
+        height: 600px;
+    }
+    .banner .texto h1 {
+        margin-left: 0px;
+        font-size: 40px;
+        width: 450px;
+        align-items: center;
+        text-align: center;
+        line-height: 40px;
+        padding-top: 20px;
+    }
+    .banner .texto h2 {
+        margin-left: 40px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .banner a {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .rec {
+        width: 500px;
+        height: 250px;
+        top: 345px;
+        right: 0;
+    }
+    .imagen img {
+        width: 400px;
+        height: 350px;
+        top: 190px;
+        right: 0;
+        position: absolute;
+    }
+    .servicios {
+        height: 1500px;
+        padding-top: 60px;
+    }
+    .servicios .cont {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .nosotros {
+        width: 450px;
+        height: 700px;
+        margin-top: -100px;
+        background: none;
+        box-sizing: border-box;
+    }
+    .nosotros .textoN {
+        box-sizing: border-box;
+        z-index: 1;
+        width: 350px;
+        margin: auto;
+        background: none;
+        border-radius: 20px;
+        padding: 30px;
+        line-height: 25px;
+        height: 650px;
+    }
+    .contactos {
+        width: 100%;
+        height: 750px;
+        background: none;
+        box-sizing: content-box;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    .from_1 {
+        height: 554px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        padding-right: 250px;
+        margin-top: -100px;
+    }
+    .from_1 div span {
+        font-size: 30px;
+    }
+    .contactos {
+        width: 100%;
+        height: 700px;
+        background: none;
+        box-sizing: content-box;
+      
+    }
+    .from_1 {
+        height: 554px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .contactos{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        align-items: center;
+        margin-top: 90px;
+    }
+    .contactos .form_1{
+        width: 100%;
+    }
+    .contactos .form_1 form{   
+    
+        width: 100%;
+        height: 80px;
+        left: 0;
+        top: 113px;
+ 
+ }
+ .contactos .form_icono img{
+    display: none;
+   
+    
+ }
+ .contactos .form_1 form input, .contactos .form_1 form textarea, .contactos .form_1 form button{
+    margin: 10px 0px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+}
+}
+
+@media (max-width: 485px){
+    .container__3{
+        width: 300px;
+        margin: 0%;
+        overflow: hidden;
+    }
+    .container__3 .imd{
+        position: relative;
+        width: 300px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .banner {
+        height: 600px;
+        
+    }
+    .banner .texto h1 {
+        margin-left: 30px;
+        font-size: 35px;
+        width: 315px;   
+        font-weight: bold;
+        line-height: 30px;
+        text-align: left;
+        
+    }
+    .banner .texto h2 {
+        margin-left: 40px;
+        font-size: 20px;
+        padding: 0;
+        margin-top: -40px;
+    }
+
+    .rec {
+        width: 651.33px;
+        height: 300px;
+        top: 300px;
+        right:-61px;
+       
+    } 
+
+    .servicios {
+        width: 100%;
+        height: 1050px;
+        background: none;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        color: rgba(68, 68, 68, 0.94);
+        margin-bottom: 30px;
+    }
+
+
+.servicios .cont .ser1 {
+    width: 358px;
+    height: 700px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+    line-height: 25px;
+}
+
+.servicios .cont .ser1 p {    
+    padding: 20px;
+}
+.nosotros {
+    
+    height: 200px;
+    background: none;
+    margin-top: 400px;
+    
+
+}
+
+.nosotros .textoN {
+    position: relative;
+    width: 350px;
+    height: 325px;
+    top: 52px;
+    z-index: 1;
+    margin-left: 9px;
+     
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+
+.contactos {
+    width: 100%;
+    height: 850px;
+    background: none;
+    
+}
+
+.from_1 {
+    height: 554px;
+    width: 100%;
+    display:grid;
+    
+}
+
+.from_1 div p {
+    width: 80%;
+    font-size: 28px;
+    font-weight: 200;
+    font-weight: bolder;
+   margin-left: 70px;
+}
+
+.login {
+   
+    border-radius: 5px;
+    height: 550px;
+    width:100%;
+    padding: 30px;
+    color: rgba(68, 68, 68, 0.94);
+    z-index: 2;
+    margin-top: 250px;
+    
+    margin-right:0px;
+}
+.login form{
+    padding-left: 50px;
+}
+    
+
+.contactos{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    margin-top: 500px;
+}
+.contactos .form_1{
+    width: 100%;
+}
+.contactos .form_1 form{   
+
+    width: 90%;
+    height: 80px;
+    left: 0;
+    top: 113px;
+
+}
+.contactos .form_icono img{
+display: none;
+
+
+}
+.contactos .form_1 form input, .contactos .form_1 form textarea, .contactos .form_1 form button{
+margin: 20px 0px;
+padding: 20px;
+width: 300px;
+border-radius: 20px;
+border: none;
+}
+.container__3{
+    width: 300px;
+    margin: 0%;
+    overflow: hidden;
+}
+.container__3 .imd{
+    position: relative;
+    width: 300px;
+}
+}
+
+
